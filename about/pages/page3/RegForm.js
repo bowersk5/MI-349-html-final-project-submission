@@ -1,9 +1,9 @@
 // SOURCE OF THIS CODE IS https://www.geeksforgeeks.org/form-validation-using-html-javascript/
 
 <script> 
-function GEEKFORGEEKS()                                    
+function RegForm()
 { 
-    var name = document.forms["RegForm"]["Name"];               
+    var name = document.forms["RegForm"]["Name"];
     var email = document.forms["RegForm"]["EMail"];    
     var address = document.forms["RegForm"]["Address"];  
    
