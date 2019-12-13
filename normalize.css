@@ -406,7 +406,7 @@ ul {
 .homepage {
   margin-left: 1em;
   font-family: Segoe UI;
-  font-size: large;
+  font-size: larger;
   text-align: center;
   color: white;
 }
@@ -414,7 +414,7 @@ ul {
 .pages {
   margin-left: 1em;
   font-family: Candara;
-  font-size: medium;
+  font-size: larger;
   color: white;
   
 }
