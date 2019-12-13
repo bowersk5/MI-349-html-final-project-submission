@@ -40,7 +40,7 @@ main {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
-  padding: 0 auto;
+  padding: 0;
 }
 
 /* Grouping content
@@ -455,4 +455,29 @@ ul {
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+}
+
+RegForm {                                         
+  margin-left: 70px; 
+  font-weight: bold ; 
+  float: left; 
+  clear: left; 
+  width: 100px; 
+  text-align: left; 
+  margin-right: 10px; 
+  font-family:'Segoe UI';
+  font-size: 14px;
+}
+ 
+div {  
+  box-sizing: border-box; 
+  width: 100%; 
+  float: left; 
+  align-content: left; 
+  align-items: left; 
+} 
+ 
+form {
+  margin: 0 auto; 
+  width: 600px; 
 }

@@ -16,13 +16,24 @@
   </div>
 
   <div class = "pages">
-      <h1>Contact</h1>
+      <h1 style="text-align: center"> Contact Form </h1>           
+<form name="RegForm" action="/submit.php" onsubmit="return RegForm()" method="post">  
+      
+    <p>Name: <input type="text" size="65" name="Name"> </p><br>        
+    <p> Address: <input type="text" size="65" name="Address">  </p><br> 
+    <p>E-mail Address: <input type="text" size="65" name="EMail">  </p><br> 
+    <p>Comment:  <textarea cols="55" name="Comment">  </textarea></p> 
+    <p><input type="submit" value="send" name="Submit">      
+        <input type="reset" value="Reset" name="Reset">   
+    </p>
+</form> 
+
       <p>Get in touch with us on through our social media accounts!</p>
       <a href="https://www.twitter.com/propinquitygaming">
-        <img src="twitter.png" style="width:256px;height:256px">
+        <img src="twitter.png" alt="Twitter logo" style="width:256px;height:256px">
       </a>
       <a href="https://www.facebook.com/propinquitygaming">
-        <img src="fb.png" style="width:256px;height:256px">
+        <img src="fb.png" alt="Facebook logo" style="width:256px;height:256px">
       </a>
     </div>
 </body>
