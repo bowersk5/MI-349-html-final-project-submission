@@ -40,6 +40,7 @@ main {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  padding: 0 auto;
 }
 
 /* Grouping content
@@ -354,6 +355,8 @@ ul {
   padding: 0;
 }
 
+/* SOURCE FOR THE NAV BAR STUFF IS https://www.w3schools.com/css/css_navbar.asp */
+
 /* Add a background color to the top navigation */
 .topnav {
   background-color: #7859a1;
@@ -374,12 +377,12 @@ ul {
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color:#737373;
-  color: black;
+  color: #A19858;
 }
 
 /* Add a background color to the top navigation */
 .topnav2 {
-  background-color: #454545;
+  background-color: #33917d;
   overflow: hidden;
 }
 
@@ -396,12 +399,22 @@ ul {
 
 /* Change the color of links on hover */
 .topnav2 a:hover {
-  background-color:#BABABA;
-  color: whitesmoke;
+  background-color:whitesmoke;
+  color: #33917d;
 }
 
 .homepage {
-  h1 {
-    color:white;
-  }
+  margin-left: 1em;
+  font-family: Segoe UI;
+  font-size: large;
+  text-align: center;
+  color: white;
+}
+
+.pages {
+  margin-left: 1em;
+  font-family: Candara;
+  font-size: medium;
+  color: white;
+  
 }
